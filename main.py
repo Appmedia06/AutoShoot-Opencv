@@ -79,8 +79,8 @@ while True:
             else:
                 if haveImg:
                     cv2.destroyWindow(str(saveCount-1) + '.jpg')
-                cv2.imwrite('C:/Users/user/PycharmProjects/faceShoot/img/' + str(saveCount) + '.jpg', img)  
-                fileImg = cv2.imread('C:/Users/user/PycharmProjects/faceShoot/img/' + str(saveCount) + '.jpg')
+                cv2.imwrite('C:/Users/user/PycharmProjects/AutoShoot/img/' + str(saveCount) + '.jpg', img)  
+                fileImg = cv2.imread('C:/Users/user/PycharmProjects/AutoShoot/img/' + str(saveCount) + '.jpg')
                 cv2.imshow(str(saveCount) + '.jpg', fileImg)
                 saveCount += 1
                 startCounter = False
